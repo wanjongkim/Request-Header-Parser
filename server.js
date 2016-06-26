@@ -3,6 +3,7 @@ var app = express();
 
 app.enable('trust proxy');
 
+app.use(express.static('client'));
 app.get('/api/whoami', function(req, res) {
     
     console.log("Got a request for whoami");
