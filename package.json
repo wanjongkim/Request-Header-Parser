@@ -1,14 +1,13 @@
 {
-  "name": "chat-example",
+  "name": "request-header-parser",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "Returns IP address, language and operating system in a JSON format",
   "main": "server.js",
   "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Wan Jong Kim <wanjong.kim@stonybrook.edu>",
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
-    "express-request-language": "^1.1.4",
     "socket.io": "~0.9.14"
   }
 }
