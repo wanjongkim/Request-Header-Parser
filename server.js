@@ -6,7 +6,7 @@ app.enable('trust proxy');
 app.get('/api/whoami', function(req, res) {
     
     console.log("Got a request for whoami");
-    
+    res.setHeader('Content-Type', 'application/json');
     var response = {
         "ipaddress" : req.ip,
         "language" : req.headers["accept-language"],
